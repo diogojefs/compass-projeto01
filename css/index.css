@@ -28,3 +28,8 @@ body {
     height: auto;
     display: block;
 }
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
