@@ -61,3 +61,15 @@ function validBirthday(birthday) {
     labelFeedbackValidation.classList.remove("invisible");
     return false;
 }
+
+function validTerms(checked) {
+    var labelFeedbackValidation = document.querySelector("#feedbackTerms");
+
+    if (checked) {
+        labelFeedbackValidation.classList.add("invisible");
+        return true;
+    }
+
+    labelFeedbackValidation.classList.remove("invisible");
+    return false;
+}
