@@ -36,3 +36,16 @@ function validPassword(password) {
     labelFeedbackValidation.classList.remove("invisible");
     return false
 }
+
+function validEmail(email) {
+    var pattern = /^(([a-z]|[0-9])+[.]?)+([a-z]|[0-9])+[@]([a-z]|[0-9])+[.]com$/i;
+    var labelFeedbackValidation = document.querySelector("#feedbackEmail");
+
+    if (email.match(pattern)) {
+        labelFeedbackValidation.classList.add("invisible");
+        return true;
+    }
+
+    labelFeedbackValidation.classList.remove("invisible");
+    return false;
+}
