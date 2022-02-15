@@ -22,3 +22,11 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 24px;
+    color: #111111;
+}
