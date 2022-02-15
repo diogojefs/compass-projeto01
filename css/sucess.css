@@ -30,3 +30,15 @@ h1 {
     line-height: 24px;
     color: #111111;
 }
+
+.containerLogo {
+    max-width: 213px;
+    max-height: 124px;
+}
+
+.containerLogo img {
+    max-width: 100%;
+    flex-shrink: 0;
+    height: auto;
+    display: block;
+}
