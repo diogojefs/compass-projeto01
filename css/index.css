@@ -1,6 +1,20 @@
-body {
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html,body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Nunito", Helvetica, Arial, Helvetica, sans-serif;
     background-color: #ECEEF2;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container-center {
