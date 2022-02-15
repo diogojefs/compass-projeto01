@@ -87,3 +87,20 @@ h1 {
 .invisible {
     visibility: hidden;
 }
+
+.container-button-and-terms {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 126px;
+    flex-wrap: wrap;
+}
+
+.container-button-and-terms button {
+    background: #0DBDBD;
+    border-radius: 10px;
+    border-width: 0;
+    color: #FFFFFF;
+    padding: 11px 10.5px;
+    cursor: pointer;
+}
