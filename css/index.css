@@ -76,3 +76,14 @@ h1 {
     line-height: 16px;
     color: #767676;
 }
+
+.feedBackValidation {
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF4B4B;
+}
+
+.invisible {
+    visibility: hidden;
+}
