@@ -33,3 +33,8 @@ h1 {
     width: 100%;
     text-align: center;
 }
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+}
