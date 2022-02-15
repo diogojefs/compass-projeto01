@@ -1,3 +1,15 @@
+var botaoAdicionar = document.querySelector("#register");
+botaoAdicionar.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    var inputName = document.querySelector('#inputName').value;
+    var inputPhone = document.querySelector('#inputPhone').value;
+    var inputPassword = document.querySelector('#inputPassword').value;
+    var inputEmail = document.querySelector('#inputEmail').value;
+    var inputBirthday = document.querySelector("#inputBirthday").value;
+    var inputCheckTerms = document.querySelector("#checkTerms").checked;
+})
+
 function validName(name) {
     var pattern = /^((([a-z]|[à-ü])+)[\s])+([a-z]|[à-ü])+$/i;
     var labelFeedbackValidation = document.querySelector("#feedbackName");
