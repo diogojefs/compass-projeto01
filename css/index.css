@@ -62,3 +62,17 @@ h1 {
     width: 31.5%;
     margin-top: 31px;
 }
+
+.data-group input {
+    border: 2px solid #AAAAAA;
+    border-radius: 4px;
+    padding: 11px 0 11px 12px;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.title-input {
+    font-size: 14px;
+    line-height: 16px;
+    color: #767676;
+}
