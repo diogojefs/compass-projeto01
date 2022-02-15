@@ -165,7 +165,7 @@ input[type="date"]::-webkit-datetime-edit-fields-wrapper {
         margin-top: 18px;
     }
 
-    .data-group input {
+    .container-input input {
         padding: 5px 12px;
     }
 
@@ -173,6 +173,10 @@ input[type="date"]::-webkit-datetime-edit-fields-wrapper {
         flex-direction: column;
         order: 11;
         margin-top: 40px;
+    }
+
+    input[type="date"] {
+        padding: 3px 0 3px 2px !important;
     }
 
     .container-button-and-terms button {
