@@ -1,3 +1,19 @@
+window.addEventListener("pageshow", () => {
+    var inputName = document.querySelector('#inputName');
+    var inputPhone = document.querySelector('#inputPhone');
+    var inputPassword = document.querySelector('#inputPassword');
+    var inputEmail = document.querySelector('#inputEmail');
+    var inputBirthday = document.querySelector("#inputBirthday");
+    var inputCheckTerms = document.querySelector("#checkTerms");
+
+    inputName.value = ""
+    inputPhone.value = ""
+    inputPassword.value = ""
+    inputEmail.value = ""
+    inputBirthday.value = ""
+    inputCheckTerms.checked = false;
+});
+
 var botaoAdicionar = document.querySelector("#register");
 botaoAdicionar.addEventListener("click", function (event) {
     event.preventDefault();
