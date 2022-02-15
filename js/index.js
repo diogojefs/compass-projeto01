@@ -23,3 +23,16 @@ function validPhone(phone) {
     labelFeedbackValidation.classList.remove("invisible");
     return false;
 }
+
+function validPassword(password) {
+    var pattern = /^[0-9]{6,8}$/;
+    var labelFeedbackValidation = document.querySelector("#feedbackPassword");
+
+    if (password.match(pattern)) {
+        labelFeedbackValidation.classList.add("invisible");
+        return true;
+    }
+
+    labelFeedbackValidation.classList.remove("invisible");
+    return false
+}
