@@ -8,6 +8,15 @@ botaoAdicionar.addEventListener("click", function (event) {
     var inputEmail = document.querySelector('#inputEmail').value;
     var inputBirthday = document.querySelector("#inputBirthday").value;
     var inputCheckTerms = document.querySelector("#checkTerms").checked;
+
+    if (
+        validName(inputName)
+        & validPhone(inputPhone)
+        & validPassword(inputPassword)
+        & validEmail(inputEmail)
+        & validBirthday(inputBirthday)
+        & validTerms(inputCheckTerms)
+    ) location.href = 'sucess.html';
 })
 
 function validName(name) {
