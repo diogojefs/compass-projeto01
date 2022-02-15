@@ -148,6 +148,27 @@ input[type="date"]::-webkit-datetime-edit-fields-wrapper {
         border-radius: 0;
     }
 
+    .email,
+    .password {
+        width: 100%;
+        display: flex;
+    }
+
+    .phone,
+    .birthday {
+        width: 48%;
+        order: 10;
+    }
+
+    .password,
+    .birthday {
+        margin-top: 18px;
+    }
+
+    .data-group input {
+        padding: 5px 12px;
+    }
+
     .container-button-and-terms {
         flex-direction: column;
         order: 11;
