@@ -147,4 +147,15 @@ input[type="date"]::-webkit-datetime-edit-fields-wrapper {
         align-content: center;
         border-radius: 0;
     }
+
+    .container-button-and-terms {
+        flex-direction: column;
+        order: 11;
+        margin-top: 40px;
+    }
+
+    .container-button-and-terms button {
+        flex: 1;
+        margin-top: 12px;
+    }
 }
