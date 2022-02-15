@@ -10,3 +10,16 @@ function validName(name) {
     labelFeedbackValidation.classList.remove("invisible");
     return false;
 }
+
+function validPhone(phone) {
+    var pattern = /^[0-9]{11}$/;
+    var labelFeedbackValidation = document.querySelector("#feedbackPhone");
+
+    if (phone.match(pattern)) {
+        labelFeedbackValidation.classList.add("invisible");
+        return true;
+    }
+
+    labelFeedbackValidation.classList.remove("invisible");
+    return false;
+}
