@@ -49,3 +49,15 @@ function validEmail(email) {
     labelFeedbackValidation.classList.remove("invisible");
     return false;
 }
+
+function validBirthday(birthday) {
+    var labelFeedbackValidation = document.querySelector("#feedbackBirthday");
+
+    if (birthday) {
+        labelFeedbackValidation.classList.add("invisible");
+        return true;
+    }
+
+    labelFeedbackValidation.classList.remove("invisible");
+    return false;
+}
