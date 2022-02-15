@@ -38,3 +38,27 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+
+.name {
+    width: 100%;
+}
+
+.email {
+    width: 64%;
+    margin-top: 18px;
+}
+
+.password {
+    width: 64%;
+    margin-top: 31px;
+}
+
+.phone {
+    width: 31.5%;
+    margin-top: 18px;
+}
+
+.birthday {
+    width: 31.5%;
+    margin-top: 31px;
+}
